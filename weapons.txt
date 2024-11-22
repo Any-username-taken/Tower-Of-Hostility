@@ -1,0 +1,8 @@
+File name-weapons.txt
+
+///Melee weapons///
+-Starters-
+wooden sword
+bash-slash-stab
+rusty dagger
+slash-stab

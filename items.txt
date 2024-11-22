@@ -1,0 +1,27 @@
+File name-items.txt
+Health Potion [s]
+Your small cuts start to close.
+H-5-W+-2-E
+5 <- gold cost (remove later)
+Health Potion [m]
+Your deep wounds start healing.
+H-10-W+-3-E
+7
+Health Potion [l]
+You feel a great surge of energy as your wounds start to heal!
+H-20-W+-5-E
+10
+Antidote
+You feel it's healing power!
+R-poison-W+-2-E
+15
+Suspicious Stew [p]
+I don't think this will be good...
+|-H-5-A-poison-3-E
+2
+Burn Cream [s]
+You apply it to your burns...
+R-burn-E
+Strength Potion [s]
+You feel power surging through your muscles!
+A-strengthen-3-W+-3-E

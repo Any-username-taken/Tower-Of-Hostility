@@ -1,0 +1,22 @@
+File name-enemy.txt
+name, type1, type2, max_health, defense, base_dmg, dodge_chance, willpower, mana, move_set, item_drop
+|0
+Slime [s]/water/none/10/0/0/5/100/5/bash-acid spit/Health Potion [s]/2
+filler cause no boss on this floor lol (it broke like 20 different times because of this)
+|1
+Slime [s]/water/none/10/0/0/5/100/5/bash-acid spit/Health Potion [s]/2
+Slime [s]/water/none/10/0/0/5/100/5/bash-acid spit/Health Potion [s]/2
+Slime [m]/water/ELITE/25/1/5/10/150/5/bash-acid spit/Health Potion [s]-Health Potion [m]/5
+Goblin/normal/BOSS/30/3/2/10/150/5/slash-bash-stab/Suspicious Stew [p]/8
+|2
+Slime [s]/water/none/10/0/1/5/100/5/bash-acid spit/Health Potion [s]/2
+Slime [m]/water/none/25/3/1/10/150/5/bash-acid spit/Health Potion [s]-Health Potion [m]/3
+Goblin/normal/none/30/3/2/10/150/5/slash-bash-stab/Suspicious Stew [p]/5
+Goblin Magician/normal/BOSS/25/5/2/15/150/100/bash-bash-bash-bash-fireball/Health Potion [m]-Suspicious Stew [p]-Antidote/7
+|3
+Slime [s]/water/none/10/0/3/5/100/5/bash-acid spit/Health Potion [s]/2
+Slime [m]/water/none/25/3/5/10/150/5/bash-acid spit/Health Potion [s]-Health Potion [m]/3
+Goblin/normal/none/30/3/6/10/150/5/slash-bash-stab/Suspicious Stew [p]/5
+Goblin Magician/normal/none/25/5/2/15/150/100/bash-bash-bash-bash-fireball/Health Potion [m]-Suspicious Stew [p]-Antidote/7
+Fire Slime [m]/fire/ELITE/15/3/2/15/100/100/fire ball-fire ball-bash-lighter/Burn Cream [s]-Health Potion [m]-Fire Core [E]/7
+King Bob/normal/BOSS/30/2/3/5/100/100/fire ball-slash-stab-bash-lighter-weaken/Burn Cream [s]-Health Potion [l]-King's Core/10

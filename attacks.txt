@@ -1,0 +1,19 @@
+File name-attacks.txt
+
+IMPORTANT!!!
+ATK go like:
+NAME
+DAMAGE/WILL-MANA (subtraction)/ABILITY
+///Physical attacks///
+slash
+3/2-0/bleed
+stab
+3-4/3-0/bleed
+bash
+2/1-0/none
+///Non-physical?///
+acid spit
+2/1-0/poison
+///Magic attacks///
+fireball
+4/2-5/burn
