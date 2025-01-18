@@ -163,8 +163,3 @@ def mock_fight(enemy, player):
             if enemy.gold > 1:
                 print(f"{player.name} got {enemy.gold} gold.")
                 player.gold += enemy.gold
-
-
-def check_work(enemy):
-    enemy.show_health()
-    print("something was here...")
