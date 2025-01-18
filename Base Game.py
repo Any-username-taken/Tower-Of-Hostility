@@ -150,7 +150,7 @@ def choose_path(map_number, player):
         check = "Nan"
         ask = input()
 
-        if ask == "u":
+        if ask.lower() == "w":
             if player_pos[1] > 0:
                 check = check_move((int(player_pos[0]), (int(player_pos[1]) - 1)), visualizer, map_number, keys)
                 if check == "up" or check == "down" or check == " " or check == "monster" or check == "item" or check == "boss" or check == "increase" or check == "decrease":
@@ -162,7 +162,7 @@ def choose_path(map_number, player):
                 print("Can't move here...")
                 time.sleep(1)
 
-        elif ask == "d":
+        elif ask.lower() == "s":
             if player_pos[1] < dimensions[1]:
                 check = check_move((int(player_pos[0]), (int(player_pos[1]) + 1)), visualizer, map_number, keys)
                 if check == "up" or check == "down" or check == " " or check == "monster" or check == "item" or check == "boss" or check == "increase" or check == "decrease":
@@ -174,7 +174,7 @@ def choose_path(map_number, player):
                 print("Can't move here...")
                 time.sleep(1)
 
-        elif ask == "l":
+        elif ask.lower() == "a":
             if player_pos[0] > 0:
                 check = check_move(((int(player_pos[0]) - 1), int(player_pos[1])), visualizer, map_number, keys)
                 if check == "up" or check == "down" or check == " " or check == "monster" or check == "item" or check == "boss" or check == "increase" or check == "decrease":
@@ -186,7 +186,7 @@ def choose_path(map_number, player):
                 print("Can't move here...")
                 time.sleep(1)
 
-        elif ask == "r":
+        elif ask.lower() == "d":
             if player_pos[0] < dimensions[0]:
                 check = check_move(((int(player_pos[0]) + 1), int(player_pos[1])), visualizer, map_number, keys)
                 if check == "up" or check == "down" or check == " " or check == "monster" or check == "item" or check == "boss" or check == "increase" or check == "decrease":
